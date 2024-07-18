@@ -1,0 +1,63 @@
+.footer-section {
+  background-color: #e8f1f5;
+}
+.footer-intro {
+  display: flex;
+  margin: 30px 10px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.footer-intro h2 {
+  margin-bottom: 10px;
+}
+.footer-intro p {
+  line-height: 1.5;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.social-section {
+  display: inline-block;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.home-social-link {
+  display: inline-block;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30px;
+  max-height: 30px;
+}
+.copyright-section {
+  text-align: center;
+}
+.scroll-up {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.scroll-up-container {
+  text-align: right; /* Align content to the right */
+  margin: 20px; /* Add some space between the intro section and the button */
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+}
+
+.scroll-up img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+}

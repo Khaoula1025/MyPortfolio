@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./component/Header/Header";
 import { keepTheme } from "./utils/Theme";
+import Home from "./component/Home/Home";
+import Footer from "./component/Footer/Footer";
+import About from "./component/About/About";
 function App() {
   const [className, setClassName] = useState("theme-dark");
 
@@ -13,6 +16,9 @@ function App() {
   return (
     <>
       <Header setClassName={setClassName} />
+      <Home />
+      <About />
+      <Footer />
     </>
   );
 }

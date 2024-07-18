@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./Header.module.css";
+import "./Header.css";
 import Toggle from "../toggle/Toggle";
 export default function Header(props) {
   return (
     <>
-      <nav className={styles.nav}>
+      <nav>
         <div>
           <img src="/images/PersonalLogo.png" alt="Logo" />
         </div>
-        <ul className={styles.ul}>
-          <div className={styles.linksContainer}>
+        <ul>
+          <div className="linksContainer">
             <li>
               {" "}
               <a href="#">Home</a>{" "}
@@ -26,9 +26,9 @@ export default function Header(props) {
               {" "}
               <a href="#">Contact</a>{" "}
             </li>
+            <Toggle setClassName={props.setClassName} />
           </div>
         </ul>
-        <Toggle setClassName={props.setClassName} />
       </nav>
     </>
   );
